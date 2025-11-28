@@ -1,73 +1,82 @@
-# React + TypeScript + Vite
+# DeFi Liquid Staking - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+一个现代化的 DeFi 流动性质押项目营销着陆页，基于 Polygon 生态构建。
 
-Currently, two official plugins are available:
+## ✨ 特性
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **现代化设计**：深色主题 + 霓虹光效 + 玻璃拟态风格
+- 🌍 **多语言支持**：支持 8 种语言，根据 IP 自动检测用户地区
+- 📱 **完全响应式**：完美适配 PC 端和移动端
+- ⚡ **高性能**：基于 Vite + React + TypeScript 构建
+- 🎭 **流畅动画**：使用 Framer Motion 实现丝滑交互体验
 
-## React Compiler
+## 🚀 快速开始
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 安装依赖
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 开发模式
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+访问 `http://localhost:5173` 查看效果。
+
+### 构建生产版本
+
+```bash
+npm run build
+```
+
+构建产物将输出到 `dist` 目录。
+
+## 📦 技术栈
+
+- **框架**: React 19 + TypeScript
+- **构建工具**: Vite 6
+- **样式**: Tailwind CSS 3
+- **动画**: Framer Motion
+- **图标**: Lucide React
+- **国际化**: i18next + react-i18next
+
+## 🌐 支持的语言
+
+- 🇺🇸 English
+- 🇨🇳 中文
+- 🇯🇵 日本語
+- 🇰🇷 한국어
+- 🇪🇸 Español
+- 🇫🇷 Français
+- 🇩🇪 Deutsch
+- 🇷🇺 Русский
+
+## 📝 项目结构
+
+```
+src/
+├── components/      # React 组件
+│   ├── Navbar.tsx   # 导航栏
+│   ├── Hero.tsx     # 首屏区域
+│   ├── Stats.tsx    # 数据统计
+│   ├── Features.tsx # 核心优势
+│   └── Footer.tsx   # 页脚
+├── locales/         # 翻译文件
+│   ├── en.json      # 英文
+│   └── zh.json      # 中文
+├── i18n.ts          # 国际化配置
+└── App.tsx          # 主应用组件
+```
+
+## 🔗 重要链接
+
+- **白皮书**: [Polygon Whitepaper](https://polygon.technology/papers/pol-whitepaper)
+- **智能矿池**: [mip666.cc](https://mip666.cc)
+- **Telegram**: [@BNmining088](https://t.me/BNmining088)
+
+## 📄 License
+
+MIT
