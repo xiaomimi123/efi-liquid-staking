@@ -1,6 +1,4 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
 
 const StatCard = ({ label, value, subtext }: { label: string; value: string; subtext?: string }) => (
   <div className="relative group">

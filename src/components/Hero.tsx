@@ -1,7 +1,6 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { ArrowRight, FileText, Zap } from 'lucide-react';
+import { FileText, Zap } from 'lucide-react';
 
 export const Hero = () => {
   const { t } = useTranslation();
