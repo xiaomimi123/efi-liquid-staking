@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "features": "Features",
+    "stats": "Statistics",
+    "security": "Security",
+    "whitepaper": "Whitepaper",
+    "launch_app": "Smart Pool"
+  },
+  "hero": {
+    "title_prefix": "Decentralized",
+    "title_highlight": "Liquid Staking",
+    "title_suffix": "Protocol",
+    "subtitle": "Unlock the liquidity of your staked assets. Earn rewards while participating in DeFi. Secure, Efficient, and Transparent.",
+    "cta_whitepaper": "Read Whitepaper",
+    "cta_app": "Launch Smart Pool",
+    "trusted_by": "Trusted by leading institutions"
+  },
+  "stats": {
+    "tvl": "Total Value Locked",
+    "apy": "Annual Percentage Yield",
+    "users": "Total Stakers",
+    "paid": "Rewards Paid"
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "f1_title": "Instant Liquidity",
+    "f1_desc": "Receive liquid tokens instantly when you stake. Trade, lend, or use them across the DeFi ecosystem.",
+    "f2_title": "Auto-Compounding",
+    "f2_desc": "Rewards are automatically reinvested to maximize your yield through the power of compound interest.",
+    "f3_title": "Audited Security",
+    "f3_desc": "Smart contracts audited by top-tier security firms. Non-custodial and transparent."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
+
